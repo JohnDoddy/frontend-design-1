@@ -1,18 +1,18 @@
 body {
     background-image: url(images/bg-hero-desktop.svg);
     background-color: hsl(193, 100%, 96%);
+    width: 800px;
 }
 
 .logo {
     margin-top: 50px;
     margin-left: 70px;
-    width: 1640px;
     height: 50px;
 }
 .try-it-free {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    height: 50px;
-    font-size: 20px;
+    height: 40px;
+    font-size: 16px;
     font-weight: bold;
     position: absolute;
     background: white;
@@ -26,7 +26,7 @@ body {
     border-radius: 20px 20px 20px 20px;
     border: none;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.226);
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
 
 }
 .try-it-free:hover {
@@ -43,26 +43,26 @@ body {
 }
 #paragraph {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.4vw;
+    font-size: 18px;
     font-weight: 400;
 }
 .community {
-    width: 590px;
-    height: 480px;
+    width: 500px;
+    height: 400px;
     margin-left: 70px;
-    margin-top: 180px;
+    margin-top: 130px;
 }
 
 .get-started {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
-    height: 50px;
+    height: 40px;
     color: white;
     margin-top: 45px;
     padding-left: 30px;
     padding-right: 30px; 
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
     background: hsl(322, 100%, 66%);
     position: absolute;
     transition: all 0.3s ease 0s;
@@ -79,10 +79,10 @@ body {
 }
 .mockup {
     text-align: right;
-    top: 200px;
-    right: 20px;
-    width: 50vw;
-    height: 35vw;
+    top: 150px;
+    right: 50px;
+    width: 700px;
+    height: 500px;
     position: absolute;
     margin-left: 750px;
 }
@@ -90,7 +90,7 @@ body {
     background: white;
     border-radius: 20px 20px 20px 20px;
     margin-top: 130px;
-    margin-left: auto;
+    margin-left: 130px;
     margin-right: auto;
     width: 80vw;
     height: 25vw;
@@ -98,22 +98,20 @@ body {
 }
 #heading-2 {
     position: absolute;
-    /* background: red; */
     width: 25vw;
-    margin-left: 150px;
-    margin-top: 140px;
+    margin-left: 120px;
+    margin-top: 100px;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5vw;
     font-weight: bold;
 
 }
 #paragraph-2 {
-    /* background: greenyellow; */
     position: absolute;
     width: 30vw;
     height: 10vw;
-    margin-left: 150px;
-    margin-top: 200px;
+    margin-left: 120px;
+    margin-top: 150px;
     font-family: 'Poppins', sans-serif;
     font-size: 1.1vw;
     font-weight: normal;
@@ -121,8 +119,8 @@ body {
 
 .grow-together-img {
     position: absolute;
-    margin-left: 1000px;
-    margin-top: 80px; 
+    margin-left: 700px;
+    margin-top: 50px; 
     margin-bottom: 10px; 
     width: 22vw;
     height: 16vw;
@@ -133,10 +131,10 @@ body {
     background: white;
     border-radius: 20px 20px 20px 20px;
     margin-top: 130px;
-    margin-left: auto;
+    margin-left: 330px;
     margin-right: auto;
     width: 50vw;
-    height: 10vw;
+    height: 13vw;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.719);
 }
 #build {
@@ -145,20 +143,20 @@ body {
     font-weight: bold;
     position: absolute;
     margin-top: 30px;
-    margin-left: 175px;
+    margin-left: 165px;
 }
 
 .get-started-2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
-    height: 50px;
+    height: 45px;
     color: white;
     margin-top: 100px;
-    margin-left: 300px;
+    margin-left: 230px;
     padding-left: 30px;
     padding-right: 30px; 
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
     background: hsl(322, 100%, 66%);
     position: absolute;
     transition: all 0.3s ease 0s;
@@ -176,8 +174,8 @@ body {
 .footer {
     position: absolute;
     background-color: hsl(206, 100%, 10%);
-    width: 2000px;
-    height: 500px;
+    width: 100%;
+    height: 400px;
     margin: 0;
     border-left: 0px;
     margin-top: 100px;
