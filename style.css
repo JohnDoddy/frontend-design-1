@@ -170,12 +170,14 @@ body {
 }
 
 .grow-together-2 {
+  background: white;
   border-radius: 20px 20px 20px 20px;
   width: 45vw;
   height: 13vw;
   box-shadow: 1px 2px 7px 1px rgba(0, 0, 0, 0.719);
   margin-top: 5%;
   margin-bottom: 2%;
+  z-index: auto;
 }
 #build {
   font-family: "Poppins", sans-serif;
@@ -207,30 +209,69 @@ body {
 }
 
 footer {
+  margin-top: -10%;
   padding: none;
   background: hsl(206, 100%, 10%);
-  height: 25vw;
-  display: flex;
-  flex-direction: column;
+  height: 40vw;
+  display: grid;
+  z-index: -1%;
 }
 #paragraph-2-f {
-  background: red;
   font-family: "Poppins", sans-serif;
   font-size: 1vw;
   font-weight: normal;
   letter-spacing: 0.7px;
-  width: 20%;
-  margin-left: 5%;
+  width: 40%;
   margin-top: 1%;
   color: white;
+  margin-right: auto;
+  margin-left: auto;
 }
-
+.footer-logo {
+  background-image: url(images/bg-hero-desktop.svg);
+  margin-top: 10%;
+  height: 25%;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lorem {
+  width: 50%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contacts {
+  width: 100%;
+  margin-top: -1%;
+  display: flex;
+  flex-direction: row;
+  margin-right: 30%;
+}
 .about {
-  float: right;
-  background: red;
+  height: 60%;
+  width: 30%;
+  color: white;
   font-family: "Poppins", sans-serif;
   font-size: 1vw;
   font-weight: normal;
   letter-spacing: 0.7px;
-  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.copyright {
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  font-weight: normal;
+  letter-spacing: 0.7px;
+  height: 35%;
+  width: 40%;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.attribution a { color: hsl(228, 45%, 44%);
+  text-decoration: none;
+
 }
