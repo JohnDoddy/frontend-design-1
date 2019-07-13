@@ -271,7 +271,13 @@ footer {
   margin-right: auto;
   color: white;
 }
-.attribution a { color: hsl(228, 45%, 44%);
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+
+}
+.about a {
+  color: white;
   text-decoration: none;
 
 }
